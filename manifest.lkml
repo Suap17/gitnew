@@ -1,16 +1,13 @@
 ##################### Constants ###################
 
 constant: CONNECTION_NAME {
-  value: "demodataset" #CCAI Demo Data
-  export: override_optional
+  value: "bigquery-sandbox" #CCAI Demo Data
 }
 
 constant: INSIGHTS_TABLE {
-  value: "my_insights_dataset.my_insights_table" #CCAI Demo Data
-  export: override_optional
+  value: "ccai_insights.conv_hub" #CCAI Demo Data
 }
 
 constant: UNNEST_TABLE {
-  value: "my_insights_table" #CCAI Demo Data
-  export: override_optional
-}
+  value: "conv_hub" #CCAI Demo Data
+  }
