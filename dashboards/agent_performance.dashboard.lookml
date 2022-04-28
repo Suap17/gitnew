@@ -49,7 +49,7 @@
     height: 5
   - title: Common Topics Handled
     name: Common Topics Handled
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: looker_bar
     fields: [insights_data.conversation_count, insights_data.client_sentiment_category,
@@ -116,7 +116,7 @@
     height: 8
   - title: Client Sentiment Category Breakdown
     name: Client Sentiment Category Breakdown
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: looker_pie
     fields: [insights_data.conversation_count, insights_data.client_sentiment_category]
@@ -183,7 +183,7 @@
     height: 3
   - title: Agent ID
     name: Agent ID
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: single_value
     fields: [insights_data.agent_id]
