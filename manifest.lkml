@@ -5,7 +5,7 @@ constant: CONNECTION_NAME {
 }
 
 constant: INSIGHTS_TABLE {
-  value: "ccai_insights.conv_hub" #CCAI Demo Data
+  value: "ccai_insights.conv_hub1" #CCAI Demo Data
 }
 
 constant: UNNEST_TABLE {
