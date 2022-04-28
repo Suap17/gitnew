@@ -5,7 +5,7 @@
   elements:
   - title: Transcript
     name: Transcript
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: looker_grid
     fields: [sentence_turn_number.turn_number, insights_data__sentences.sentence,

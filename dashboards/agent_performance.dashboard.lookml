@@ -5,7 +5,7 @@
   elements:
   - title: Avg Client Sentiment Category Value
     name: Avg Client Sentiment Category Value
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: single_value
     fields: [insights_data.agent_id, insights_data.average_client_sentiment_category_value]

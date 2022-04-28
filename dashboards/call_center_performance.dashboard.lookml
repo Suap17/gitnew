@@ -5,7 +5,7 @@
   elements:
   - title: Total Conversations
     name: Total Conversations
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: single_value
     fields: [insights_data.conversation_count]
