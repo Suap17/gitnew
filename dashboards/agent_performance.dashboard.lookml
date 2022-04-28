@@ -154,7 +154,7 @@
     height: 5
   - title: Total Conversations
     name: Total Conversations
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: single_value
     fields: [insights_data.conversation_count]
@@ -213,7 +213,7 @@
     height: 2
   - title: Avg Agent Sentiment Category Value
     name: Avg Agent Sentiment Category Value
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: single_value
     fields: [insights_data.agent_id, insights_data.average_agent_sentiment_category_value]
@@ -257,7 +257,7 @@
     height: 5
   - title: Client and Agent Sentiment Over Time
     name: Client and Agent Sentiment Over Time
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: looker_line
     fields: [insights_data.average_client_sentiment_category_value, insights_data.start_date,
@@ -337,7 +337,7 @@
       type: dropdown_menu
       display: inline
       options: []
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     listens_to_filters: []
     field: insights_data.agent_id
@@ -351,7 +351,7 @@
       type: relative_timeframes
       display: inline
       options: []
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     listens_to_filters: []
     field: insights_data.load_date
@@ -365,7 +365,7 @@
       type: relative_timeframes
       display: inline
       options: []
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     listens_to_filters: []
     field: insights_data.start_date
@@ -379,7 +379,7 @@
       type: button_group
       display: inline
       options: []
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     listens_to_filters: []
     field: insights_data.type
@@ -393,7 +393,7 @@
       type: dropdown_menu
       display: inline
       options: []
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     listens_to_filters: []
     field: insights_data.client_sentiment_category
