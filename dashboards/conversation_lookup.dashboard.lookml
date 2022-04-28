@@ -42,7 +42,7 @@
     height: 7
   - title: Most Salient Entities
     name: Most Salient Entities
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: looker_column
     fields: [insights_data__entities.average_salience, insights_data__entities.name]
@@ -93,7 +93,7 @@
     height: 5
   - title: Client Sentiment
     name: Client Sentiment
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: single_value
     fields: [insights_data.client_sentiment_category, insights_data.average_client_sentiment_category_value]
@@ -122,7 +122,7 @@
     height: 2
   - title: Agent Sentiment
     name: Agent Sentiment
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: single_value
     fields: [insights_data.agent_sentiment_category, insights_data.average_agent_sentiment_category_value]
@@ -150,7 +150,7 @@
     height: 2
   - title: Conversation Name
     name: Conversation Name
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: single_value
     fields: [insights_data.conversation_name]
@@ -191,7 +191,7 @@
     height: 2
   - title: Type
     name: Type
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: single_value
     fields: [insights_data.type]
@@ -232,7 +232,7 @@
     height: 2
   - title: Agent ID
     name: Agent ID
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: single_value
     fields: [insights_data.agent_id]
@@ -273,7 +273,7 @@
     height: 2
   - title: Duration
     name: Duration
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: single_value
     fields: [insights_data.minutes_conversation]
@@ -314,7 +314,7 @@
     height: 2
   - title: Topic
     name: Topic
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: single_value
     fields: [insights_data__topics.name]
@@ -355,7 +355,7 @@
     height: 2
   - title: Dialogflow Intent Matches Identified
     name: Dialogflow Intent Matches Identified
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: looker_column
     fields: [insights_data__sentences.count, insights_data__sentences__dialogflow_intent_match_data.display_name]
@@ -404,7 +404,7 @@
     height: 5
   - title: Smart Highlights
     name: Smart Highlights
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: looker_column
     fields: [insights_data__sentences.count, insights_data__sentences__intent_match_data.display_name]
@@ -453,7 +453,7 @@
     height: 5
   - title: Custom Highlights
     name: Custom Highlights
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: looker_column
     fields: [insights_data__sentences.count, insights_data__sentences__phrase_match_data.display_name]
@@ -502,7 +502,7 @@
     height: 5
   - title: Import Date
     name: Import Date
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: single_value
     fields: [insights_data.load_date]
@@ -553,7 +553,7 @@
     height: 2
   - title: Start Date
     name: Start Date
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     type: single_value
     fields: [insights_data.start_date]
@@ -588,7 +588,7 @@
       type: dropdown_menu
       display: inline
       options: []
-    model: insights_demo
+    model: ccai_insights
     explore: insights_data
     listens_to_filters: []
     field: insights_data.conversation_name
