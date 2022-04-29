@@ -9,5 +9,5 @@ constant: INSIGHTS_TABLE {
 }
 
 constant: UNNEST_TABLE {
-  value: "conv_hub" #CCAI Demo Data
+  value: "conv_hub1" #CCAI Demo Data
   }
